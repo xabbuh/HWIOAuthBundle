@@ -70,7 +70,7 @@ final class ResourceOwnerCompilerPass implements CompilerPassInterface
                 return;
             }
 
-            if (!($match['type'] ?? null)) {
+            if (!$match['type']) {
                 continue;
             }
 
